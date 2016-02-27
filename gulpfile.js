@@ -5,10 +5,17 @@ const webpack = require('webpack-stream');
 const child = require('child_process');
 const help = require('gulp-task-listing');
 const eslint = require('gulp-eslint');
+const runSequence = require('run-sequence');
 
 gulp.task('help', help);
 
-gulp.task('default', ['lint', 'build']);
+gulp.task('default', function () {
+  // NOTE: This is a temporary solution for running subtasks
+  // in sequence while still allowing the subtasks to be run
+  // separately if need be.
+  // Change to gulp.series(...) when gulp 4.0 is released.
+  runSequence('lint', 'build');
+});
 
 // //////////////////////////////////////
 // BUILDING

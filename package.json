@@ -46,6 +46,7 @@
     "has-cors": "1.1.0",
     "istanbul": "0.4.2",
     "mocha": "2.3.4",
+    "run-sequence": "1.1.5",
     "socket.io": "1.4.5",
     "text-blob-builder": "0.0.1",
     "uglify-js": "2.6.1",
