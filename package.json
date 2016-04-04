@@ -9,7 +9,7 @@
     "events",
     "client"
   ],
-  "main": "./dist/index",
+  "main": "./lib/index",
   "jspm": {
     "main": "socket.io.js"
   },
