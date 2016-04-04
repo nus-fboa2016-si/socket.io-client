@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "debug": "2.2.0",
-    "engine.io-client": "git@github.com:nus-fboa2016-si/engine.io-client.git#release-test",
+    "engine.io-client": "git://github.com/nus-fboa2016-si/engine.io-client.git#release-test",
     "component-bind": "1.0.0",
     "component-emitter": "1.2.0",
     "object-component": "0.0.3",
